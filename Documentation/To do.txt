@@ -1,0 +1,18 @@
+# -WiFly i Bluetooth configure function:(citaju bluetooth i wifly config fajlove, preko bluetooth i wifly USART-a
+				       ulaze u command mode modula i salju konfiguracijske podatke)	 
+# -POST method za logiranje
+-GET method +
+-Implementirati WiFly i funkcije za rad sa WiFly-em +
+-FSM za WiFly +
+-I2C funkcije za interakciju sa kapacitivnim senzorom +
+
+
+-skaliranje vrijednosti s i2c senzora
+-bulžiri za ac motor
+-rtc - lemiti oscilator +
+-postaviti u kuæište
+-wifly rutina za paljenje
+-partizanština ploèica za motor
+
+
+# -Dynamic DNS

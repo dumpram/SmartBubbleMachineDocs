@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>What is this page all about?</h3>
+
+<p>This web page is created for controlling smart bubble machine. It may
+    sound silly, but this machine is controlled by controls which can be
+    accessed on menu "Control". From there you can control and monitor
+    bubble production.
+    </p>
+
+<h3>About Bubble Machine</h3>
+
+<p>
+    Bubble Machine is machine which produces bubbles. Smart Bubble Machine
+    does something similiar but it is controlled by STM32F4 microcontroller
+    with Wifly module which enables connection of bubble machine to internet
+    and interacting with web application. 
+</p>
+
+<h3>How does it work?</h3>
+
+<p>
+    At the moment you can test application by changing controls on interface. All
+    changes are asynchronus. Using AJAX and SignalR changes are propagated to the 
+    server side. If you open 2 interfaces you will see that change in one interface
+    affects controls in other.  
+</p>
+
+<p>
+    In real life wifly module passes data to /SBMWebInterface/WiflyAccess Action. As
+    a result it receives controlling values(DC motor speed and AC motor state). To
+    simulate something like this additional server is used. It is Tomcat7 server 
+    which runs on BeagleBone.
+</p>
+
+<h3>How to test it?</h3>
+
+<p>
+    Download Wifly Module Simulator on this <a href="/Home/GetSimulator">link</a>. Run simulator
+    and observe changes in control interface.
+</p>
+
